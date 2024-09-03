@@ -191,77 +191,7 @@ function Home() {
 
 
 
-            {/* <section className="relative h-[80vh] flex -mt-[50px]">
-          
-                <div className="w-1/2 bg-cover object-top" style={{ backgroundImage: "url('https://res.cloudinary.com/djh2ro9tm/image/upload/v1725352379/tqs4p1neepd0cjhyjiqj.png')" }}>
-           
-                </div>
-
-           
-                <div className="w-1/2 flex items-center justify-center p-8">
-                    <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg">
-                        <h2 className="text-2xl font-bold mb-6">Book an Appointment</h2>
-                        <form>
-                            <div className="grid grid-cols-1 gap-4 mb-4">
-                                <div className="grid grid-cols-2 gap-4">
-                                    <div>
-                                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="firstName">
-                                            First Name
-                                        </label>
-                                        <input
-                                            type="text"
-                                            id="firstName"
-                                            placeholder="Enter your first name"
-                                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
-                                        />
-                                    </div>
-                                    <div>
-                                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="lastName">
-                                            Last Name
-                                        </label>
-                                        <input
-                                            type="text"
-                                            id="lastName"
-                                            placeholder="Enter your last name"
-                                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
-                                        />
-                                    </div>
-                                </div>
-                                <div>
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="date">
-                                        Date of Appointment
-                                    </label>
-                                    <input
-                                        type="date"
-                                        id="date"
-                                        className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="department">
-                                        Choose Department
-                                    </label>
-                                    <select
-                                        id="department"
-                                        className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
-                                    >
-                                        <option>Cardiology</option>
-                                        <option>Orthopedics</option>
-                                        <option>Neurology</option>
-                                        <option>General Medicine</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <button
-                                type="submit"
-                                className="bg-green-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
-                            >
-                                Submit
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </section> */}
+        
             <section className="relative h-auto md:h-[80vh] flex flex-col md:flex-row -mt-[50px]">
                 {/* Image Section */}
                 <div className="w-full md:w-1/2 h-64 md:h-auto bg-cover object-top" data-aos="fade-right" style={{ backgroundImage: "url('https://res.cloudinary.com/djh2ro9tm/image/upload/v1725352379/tqs4p1neepd0cjhyjiqj.png')" }}>
